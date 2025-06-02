@@ -8,3 +8,5 @@ document.getElementById("mySubmit").onclick = function() {
 let age = window.prompt("how old are you?");
 age = Number(age);
 age+=1;
+
+console.log(100)
