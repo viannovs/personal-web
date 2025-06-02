@@ -33,6 +33,6 @@ li {
 .container {
     padding: 10px;
     background-color: purple;
-    gap: 10px;
+    gap: 30px;
     display: flex;
 }
