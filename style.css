@@ -6,6 +6,7 @@ body {
 
 p {
     color: blueviolet;
+    font-weight: 700;
 }
 
 .headline {
@@ -21,4 +22,17 @@ p {
 
 hr {
     width: 10em;
+}
+
+li {
+    list-style: none;
+    color: WHITE;
+    font-weight: 500;
+}
+
+.container {
+    padding: 10px;
+    background-color: purple;
+    gap: 10px;
+    display: flex;
 }
