@@ -17,29 +17,52 @@ p {
     background-color: yellow;
     color: rgb(224, 171, 36);
     padding: 5px;
-    
 }
 
 hr {
     width: 10em;
 }
 
-li {
-    list-style: none;
-    color: WHITE;
-    font-weight: 500;
-    -webkit-text-stroke: 0.5px gold;
- /* text-shadow:
-    -1px -1px 0 black,
-     1px -1px 0 black,
-    -1px  1px 0 black,
-     1px  1px 0 black; */
+/* 🔧 Container setup with flex */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: purple;
+    border-radius: 15px;
 }
 
-.container {
-    padding: 10px;
-    background-color: purple;
-    gap: 30px;
+/* 🔧 Logo (SHORTCUT) */
+.logo {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* 🔧 Horizontal nav list */
+.nav-menu {
     display: flex;
-    border-radius: 15px;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* 🔧 Style for nav items */
+.nav-menu li {
+    color: white;
+    font-weight: 500;
+    -webkit-text-stroke: 0.5px gold;
+    /* Optional text shadow for outline effect */
+    /* text-shadow:
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black; */
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: white;
 }
